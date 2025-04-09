@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Capstone Project</title>
+    <!-- CDN for Bootstraps -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- CDN for fontawesome -->
+    <script
+      src="https://kit.fontawesome.com/34d3a02d9f.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- CDN for Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Stylsheet link -->
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <!-- Header/Navbar -->
+    <header>
+      <div class="container">
+        <nav class="main-nav">
+          <!-- logo -->
+          <div class="logo">
+            <img src="./assets/images/logo.jpg" alt="logo" />
+          </div>
+          <!-- nav-list -->
+          <ul class="navlist">
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#Services">Services</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#Contact-Support">Contact Support</a></li>
+          </ul>
+          <div class="hamburger-menu">
+            <button
+              class="Navbar-toggle"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navlist"
+              aria-controls="navlist"
+              aria-expanded="false"
+              aria-label="toggle navigation"
+            >
+              <i class="fa-solid fa-bars"></i>
+            </button>
+          </div>
+        </nav>
+      </div>
+      <div class="collapse navbar-collapse bg-dark" id="navlist">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link text-center text-white" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-center text-white" href="#">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-center text-white" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-center text-white" href="#">Testimonials</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-center text-white" href="#"
+              >Contact Support</a
+            >
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero-text">
+        <h2>
+          Best <em>EdTech</em> <br />
+          Company <br />
+          & Programming <br /><em> Services</em>
+        </h2>
+        <div class="divider"></div>
+        <p>
+          Decription of Services <br />
+          <br />
+          <br />
+        </p>
+      </div>
+    </section>
+
+    <!-- Services  -->
+    <div class="container">
+      <section class="row Services" id="Services">
+        <div class="col-12">
+          <div class="section-heading text-center">
+            <h6 class="h1">Services</h6>
+            <h4 class="display-4">Learn Skills</h4>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="service-item">
+            <i class="fa-solid fa-book"></i>
+            <h4>Interactive Platform</h4>
+            <p>Platform Details</p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="service-item">
+            <i class="fa-solid fa-code"></i>
+            <h4>Doubt Support</h4>
+            <p>Doubt Support Details</p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="service-item">
+            <i class="fa-solid fa-computer-mouse"></i>
+            <h4>Interactive Coding Challenges</h4>
+            <p>Challenge Details</p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="service-item">
+            <i class="fa-solid fa-tablet"></i>
+            <h4>Mobile Tablet Coding</h4>
+            <p>Coding Details</p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="service-item">
+            <i class="fa-solid fa-archway"></i>
+            <h4>Support for Coding Enthusiasts</h4>
+            <p>Support Details</p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="service-item">
+            <i class="fa-solid fa-puzzle-piece"></i>
+            <h4>Customizable Coding Experience</h4>
+            <p>Experience Details</p>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- Banner -->
+    <div class="container-fluid">
+      <section class="row banner">
+        <div class="col-lg-5 col-md-12">
+          <h4>
+            Coding <em> Solutions</em> and <strong>Programming</strong> Mastery
+          </h4>
+        </div>
+        <div class="col-lg-7 col-md-12">
+          <div class="btn btn1">
+            <a href="#about">Discover More</a>
+          </div>
+          <div class="btn btn2">
+            <a href="#contact">Contact Us</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- About Us -->
+      <section class="row about-us" id="about">
+        <div class="col-12">
+          <div class="section-heading">
+            <h6>About Us</h6>
+            <h4>Know Us better</h4>
+          </div>
+          <div class="details">
+            <div class="btn btn-warning">
+              <span>Coding Courses</span>
+            </div>
+            <ul class="course-list">
+              <li class="list-head bg-dark-subtle d-none d-md-flex">
+                <span style="width: 20rem">Course Title</span>
+                <span style="width: 20rem">Duration</span>
+                <span style="width: 20rem">Level</span>
+                <span style="width: 20rem">Instructor</span>
+              </li>
+              <li>
+                <span style="width: 20rem" class="item-title"
+                  >Web Development Basics</span
+                >
+                <span style="width: 20rem">3 Months</span>
+                <span style="width: 20rem">Beginner</span>
+                <span style="width: 20rem">John Doe</span>
+              </li>
+              <li class="bg-dark-subtle">
+                <span style="width: 20rem" class="item-title"
+                  >Advanced JavaScript</span
+                >
+                <span style="width: 20rem">4 months</span>
+                <span style="width: 20rem">Intermediate</span>
+                <span style="width: 20rem">Jane Smith</span>
+              </li>
+              <li>
+                <span style="width: 20rem" class="item-title"
+                  >Data Structures</span
+                >
+                <span style="width: 20rem">6 Months</span>
+                <span style="width: 20rem">Advanced</span>
+                <span style="width: 20rem">Chris Williams</span>
+              </li>
+              <li class="bg-dark-subtle">
+                <span style="width: 20rem" class="item-title"
+                  >Fil Stack Development</span
+                >
+                <span style="width: 20rem">8 Months</span>
+                <span style="width: 20rem">Expert</span>
+                <span style="width: 20rem">Emily Johnson</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- Learning Plan Form -->
+    <div style="width: 100%; height: 80vh" class="form d-flex m-2 text-white">
+      <div style="width: 50%" class="form-img-con m-2">
+        <img src="./assets/images/pic.png" alt="pic" />
+      </div>
+      <div class="form-body">
+        <p class="h4 mb-1 text-center" style="color: #ff511a">
+          Your Coding Journey
+        </p>
+        <p class="h1 mb-5 text-center">Create a Learning Plan</p>
+        <form action="#">
+          <label for="name" class="form-label pe-2">Your Name</label>
+          <input
+            type="text"
+            id="name"
+            style="width: 30%"
+            class="form-control d-inline bg-dark"
+          />
+          <label for="email" class="form-label px-2">Your Email</label>
+          <input
+            type="email"
+            id="email"
+            style="width: 30%"
+            class="form-control d-inline bg-dark"
+          />
+          <label for="area" class="form-label text-left">Learning Area</label>
+          <input type="text" id="area" class="form-control bg-dark" />
+          <label for="goal" class="form-label">Your Goal</label>
+          <select
+            name="list"
+            id="goal"
+            class="form-select bg-dark text-white pe-2"
+            aria-label="select bs"
+          >
+            <option selected>Choose an Option</option>
+          </select>
+          <button class="btn">Submit Now</button>
+        </form>
+      </div>
+    </div>
+    <!-- Testimonials -->
+    <div class="container" id="testimonials">
+      <section class="row testimonials" id="testmonials">
+        <div class="col-12">
+          <div class="section-heading text-center">
+            <h6>TESTIMONIALS</h6>
+            <h4>What Our students Say</h4>
+          </div>
+        </div>
+        <!-- corousel -->
+        <div
+          id="testimonialCarousel"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <!-- testimonial card -->
+              <div class="testimonial-card">
+                <div class="content">
+                  <i class="fa-solid fa-quote-left"></i>
+                  <p>Testimony of Naoh</p>
+                  <h4>Noah Williams</h4>
+                  <span class="subtitle">Full Stack Developer</span>
+                </div>
+                <div class="image-container">
+                  <img
+                    src="./assets/images/testimonials-01.jpg"
+                    alt="Noah Williams"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="testimonial-card">
+                <div class="content">
+                  <i class="fa-solid fa-quote-left"></i>
+                  <p>Testimony of Isabella</p>
+                  <h4>Isabella Hernandez</h4>
+                  <span class="subtitle">Full Stack Developer</span>
+                </div>
+                <div class="image-container">
+                  <img
+                    src="./assets/images/testimonials-02.png"
+                    alt="Isabella"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="testimonial-card">
+                <div class="content">
+                  <i class="fa-solid fa-quote-left"></i>
+                  <p>Testimony of Naoh</p>
+                  <h4>Noah Williams</h4>
+                  <span class="subtitle">Full Stack Developer</span>
+                </div>
+                <div class="image-container">
+                  <img
+                    src="./assets/images/testimonials-03.jpg"
+                    alt="Sophia Anderson"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#testimonialCarousel"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#testimonialCarousel"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+    </div>
+
+    <!-- Contact Us -->
+    <div class="contact-us" id="Contact-Support">
+      <div class="contact-heading text-center m-3">
+        <p class="heading-1 h4">Contact Us</p>
+        <p class="h1">Let's Connect</p>
+      </div>
+      <div class="CN-loc">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3782.3079860103117!2d73.9023302750388!3d18.560148582541146!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c13c4bcfd305%3A0x2b9907f299a466a7!2sCodeNinja%20Pvt%20Ltd.!5e0!3m2!1sen!2sin!4v1739966471758!5m2!1sen!2sin"
+          width="100%"
+          height="100%"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+      <div class="contact-through container d-flex justify-content-between">
+        <div class="contact-body text-center">
+          <i class="fa-solid fa-envelope"></i>
+          <p class="text-dark fw-bold">Email Address</p>
+          <p>john.doe@codingninjas.com</p>
+        </div>
+        <div class="contact-body text-center">
+          <i class="fa-solid fa-phone"></i>
+          <p class="text-dark fw-bold">Phone Number</p>
+          <p>010-020-0340</p>
+        </div>
+        <div class="contact-body text-center">
+          <i class="fa-solid fa-map-location-dot"></i>
+          <p class="text-dark fw-bold">Address</p>
+          <p>Haryana,India</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Inquiry Form -->
+    <div class="container inquiry">
+      <div class="row">
+        <div class="in col-12 text-center display-4 fw-bold">
+          <p>Feel Free To Inquire About Our Coding Courses</p>
+        </div>
+        <div class="in col-6">
+          <input type="text" placeholder="Your Name" />
+        </div>
+        <div class="in col-6">
+          <input type="tel" placeholder="Your Phone" />
+        </div>
+        <div class="in col-6">
+          <input type="email" placeholder="Your Email" />
+        </div>
+        <div class="in col-6">
+          <input type="text" placeholder="Subject" />
+        </div>
+
+        <div class="in col-12">
+          <textarea type="text" placeholder="Your Message"></textarea>
+        </div>
+        <div class="in col-12 text-center"><button>Send Message</button></div>
+      </div>
+    </div>
+    <!-- Footer -->
+     <div class="Footer container-fluid">
+      <p>Copyright &copy; Coding Ninjas Co.Ltd.All Rights Reserved <br> Designed by <span>CodingNinjas</span></p>
+
+     </div>
+  </body>
+</html>
